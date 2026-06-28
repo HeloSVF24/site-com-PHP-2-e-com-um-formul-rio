@@ -20,15 +20,14 @@ Projeto ETEC/
 │   └── formulario.js        ← Validação do formulário e máscara do telefone
 │
 ├── imagens/
-│   ├── eteclogo.png
-│   ├── cpslogo.png
-│   ├── estudante.png
-│   ├── etec1.jpg
-│   ├── etec2.jpg
-│   ├── etec3.jpg
-│   └── ...
-│
-└── README.md (opcional)
+   ├── eteclogo.png
+   ├── cpslogo.png
+   ├── estudante.png
+   ├── etec1.jpg
+   ├── etec2.jpg
+   ├── etec3.jpg
+   └── ...
+
 ```
 
 ## Vídeo funcionando
