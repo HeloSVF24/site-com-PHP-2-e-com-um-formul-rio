@@ -1,0 +1,309 @@
+.navbar-custom{
+background-color:#c40000;
+}
+
+.logos{
+
+display:flex;
+align-items:center;
+gap:740px; 
+}
+
+.logo1{
+width:150px;
+height: 140px;
+}
+
+.logo2{
+width:180px;
+height: 170px;
+}
+
+.banner{
+background-color:#f5b342;
+padding:50px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.banner img{
+width:300px;
+}
+
+.pessoa{
+display:block;
+margin-right: 100px;
+}
+
+.swiper{
+width: 50%;
+height: 300px;
+margin-top: 60px;
+}
+
+.swiper-slide{
+display:flex;
+justify-content:center;
+align-items:center;
+width:300px; 
+}
+
+.swiper-slide img{
+width: 100%;
+height: 300px;
+object-fit:cover;
+border-radius:5px;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+top: 50%;
+transform: translateY(-50%);
+}
+
+.rodape{ 
+background-color:#c40000;
+color:white;
+padding:40px 20px; 
+margin-top:50px; 
+}
+
+.container-footer{
+display:flex;
+justify-content:space-around;
+flex-wrap:wrap;
+}
+
+.coluna{
+max-width:250px;
+}
+
+.coluna h3{
+margin-bottom:10px;
+}
+
+.titulo {
+    font-size: 28px;
+    color: #0b5c66;
+    position: relative;
+    padding-bottom: 15px;
+    margin-top: 40px; /* distância da navbar */
+}
+
+/* linha cinza */
+.titulo::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 4px;
+    background-color: #d9d9d9;
+}
+
+/* parte vermelha */
+.titulo::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 180px;       /* tamanho da parte vermelha */
+    height: 8px;
+    background-color: #c40000;
+    border-radius: 20px;
+}
+
+/* centraliza tudo */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* 3 cards por linha */
+.noticias-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    margin-top: 30px;
+}
+
+/* card estilo Etec */
+.card {
+    margin: 15px;
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+    aspect-ratio: 1 / 1.05; 
+    display: flex;
+    flex-direction: column;
+}
+
+/* imagem */
+.card img {
+    width: 100%;
+    height: 55%;
+    object-fit: cover;
+}
+
+/* conteúdo */
+.card-conteudo {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-conteudo h3 {
+    color: #000000;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.data {
+    font-size: 14px;
+    color: #000000;
+}
+
+/* Texto da descrição AMS */
+.ams-info p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+/* Palavras em negrito (Público-alvo, Sobre o curso, etc) */
+.ams-info strong {
+  font-weight: bold;
+  color: #000;
+}
+
+.conteudo {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.conteudo img {
+    width: 600px;
+    height: auto;
+}
+
+.texto {
+    line-height: 1.6;
+}
+
+.mensagem {
+    max-width: 600px;
+    margin: 40px auto; /* centraliza na tela */
+    text-align: left;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+}
+
+
+
+
+/*   FORMULÁRIO PARA DÙVIDAS  */
+
+.formulario select,
+.formulario textarea{
+
+    display:block;
+    width:500px;
+
+    padding:15px;
+
+    margin-bottom:25px;
+
+    border:2px solid #eee;
+
+    border-radius:8px;
+
+    font-size:1rem;
+
+    transition:.3s;
+
+}
+
+.formulario select:focus,
+.formulario textarea:focus{
+
+    border-color:#c40000;
+
+    box-shadow:0 0 0 4px rgba(196,0,0,.1);
+
+    outline:none;
+
+}
+
+.formulario textarea{
+
+    resize:none;
+
+}
+
+.formulario > form > label {
+    display: block;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+/*  Política privacidade  */
+
+.politica {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.politica input {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+}
+
+.politica label {
+    display: inline;
+    margin: 0;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    color: #555;
+}
+
+.politica a{
+
+    color:#0b5c66;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+.politica a:hover{
+
+    text-decoration:underline;
+
+}
